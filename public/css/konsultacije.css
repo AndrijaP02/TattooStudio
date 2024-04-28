@@ -1,0 +1,40 @@
+.prikaz{
+    background-color: rgb(226, 226, 226);
+    border-radius: 30px;
+    padding: 15px;
+}
+.prikaz table{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 8px 2px gray;
+}
+
+.prikaz table .btn{
+    background-color: black;
+    color: white;
+}
+.prikaz table .btn:hover{
+    background-color: rgb(0, 147, 118);
+    color: white;
+}
+.dugme{
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.dugme a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+}
+.dugme a:hover{
+    color: black;
+}
+.dugmePrikaz a{
+    background-color: black;
+    color: white;
+}

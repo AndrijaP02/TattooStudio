@@ -1,0 +1,105 @@
+
+  .booking{
+    background-color: rgb(226, 226, 226);
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .col{
+    padding: 15px;
+  }
+  .mapa{
+    background-color:rgb(163, 163, 163); 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 3px 2px inset gray;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .mapa iframe{
+    border-radius: 10px;
+  }
+
+.mapa h4{
+  text-shadow: 2px 2px 2px gray;
+text-align: center;
+}
+
+.poruka h3{
+    text-shadow: 2px 2px 2px gray;
+    text-align: center;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.poruka p{
+  padding-top: 25px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+input, select{
+  width: 100%;
+  border-radius: 10px;
+}
+.forma .btn{
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+
+.forma .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.forma input[type=text]{
+    border: 2px solid black;
+    background-color: rgb(226, 226, 226);
+}
+.forma select{
+    border: 2px solid black;
+    background-color: rgb(226, 226, 226);
+}
+
+.forma input[type="text"]:focus{
+    border: solid 3px;
+    border-color: rgb(4, 116, 103);
+    background-color: rgb(235, 255, 251);
+}
+
+.forma select:focus{
+    border: solid 3px;
+    border-color: rgb(4, 116, 103);
+    background-color: rgb(235, 255, 251);
+}
+.forma label{
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+}
+.forma{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+
+    margin-right: 10px;
+}
+#divKontakt .row{
+    text-align: center;
+    height: 165px;
+    margin-top: 20px;
+}
+
+#divKontakt .row h4{
+    font-style: italic;
+    text-shadow: 1px 1px 1px grey;
+    padding-bottom: 10px;
+}
+#divKontakt .btn{
+    background-color: black;
+    color: white;
+}
+#divKontakt .btn:hover{
+    background-color: gray;
+    color: white;
+}
+

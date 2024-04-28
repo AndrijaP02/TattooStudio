@@ -1,0 +1,117 @@
+.artist .card {
+  border-radius: 20px !important;
+}
+
+.artist .row p {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 1px gray;
+}
+
+#kolonaDugme{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.artist .row .btn {
+  background-color: black;
+  color: white;
+}
+
+.artist .row .btn:hover {
+  background-color: rgb(0, 103, 91);
+  color: white;
+}
+
+.artist .row{
+  background-color: lightgray;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.artist{
+    background-color: rgb(159, 157, 157);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+  }
+  
+  .grid-item {
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    box-shadow: 1px 1px 3px 3px rgb(86, 85, 85);
+  }
+
+  .grid-item .btn{
+    background-color: lightgray;
+    color: black;
+  }
+  .grid-item h3{
+    font-family: fantasy;
+  }
+  .grid-item .btn:hover{
+    background-color: rgb(0, 103, 91);
+    color: white;
+  }
+  .tekstArtisti h3{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+ 
+  .tekstArtisti{
+    text-align: center;
+    color: white;
+    background-image: url(../img/armtattoo.jpg);
+    border-radius: 30px;
+    padding: 15px 0px;
+    font-weight: bold;
+  }
+  .thumbnail img{
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+  }
+ 
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.filled::before,
+.star.half-filled::before {
+    content: "\2605"; /* Uzorak za punu zvezdu */
+    color: yellow; /* Boja punih zvezda */
+    display: inline-block;
+}
+
+.star.empty::before {
+    content: "\2606"; /* Uzorak za praznu zvezdu */
+    color: lightgray; /* Boja praznih zvezda */
+    display: inline-block;
+}
+
+.star.half-filled::before {
+    position: relative;
+    overflow: hidden;
+    width: 50%; /* Polovina širine zvezde */
+}
+

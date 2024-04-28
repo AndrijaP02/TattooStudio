@@ -1,0 +1,79 @@
+.artist .card {
+    border-radius: 20px !important;
+}
+
+.artist .row-1 p {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 1px gray;
+}
+/* Stil za grid-container */
+.grid-container {
+    width: 300px; 
+    margin-left: 300px;
+}
+
+.artist .row-1{
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.artist{
+    background-color: rgb(159, 157, 157);
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+}
+
+.grid-item {
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    box-shadow: 1px 1px 3px 3px rgb(86, 85, 85);
+}
+.ocene{
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    margin-right: 300px;
+}
+.ocene .btn{
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+}
+.grid-item h3{
+    font-family: fantasy;
+}
+.ocene .btn:hover{
+    background-color: rgb(0, 103, 91);
+    color: white;
+}
+.thumbnail img{
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px white;
+}
+.omotac {
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 10px;
+}
+.ocene-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100%; 
+    padding-left: 20px; 
+}
+
+
+

@@ -1,0 +1,33 @@
+.omotac{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 10px;
+}
+.omotac .card{
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px gray;
+}
+.omotac .card .card-header{
+    text-shadow: 1px 1px 2px gray;
+    font-size: 16px;
+}
+.omotac .card .card-body label{
+    text-shadow: 1px 1px 2px gray;
+}
+.omotac .card .card-body input{
+    background-color: lightgray;
+    border: 2px solid gray;
+}
+.omotac .card .card-body button{
+    background-color: gray;
+    color: white;
+}
+.omotac .card .card-body button:hover{
+    background-color: black;
+    color: white;
+}
+.omotac .card .card-body a{
+    color: gray;
+    text-decoration: none;
+}
+

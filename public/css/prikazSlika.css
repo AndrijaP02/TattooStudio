@@ -1,0 +1,86 @@
+.tekstArtisti h3{
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.tekstArtisti{
+  text-align: center;
+  color: white;
+  background-image: url(../img/armtattoo.jpg);
+  border-radius: 30px;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+.artist{
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 15px;
+}
+.artist .row p {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 1px gray;
+}
+
+#kolonaDugme{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.artist .row .btn {
+  background-color: black;
+  color: white;
+}
+
+.artist .row .btn:hover {
+  background-color: rgb(0, 103, 91);
+  color: white;
+}
+
+.artist .row{
+  background-color: rgb(156, 156, 156);
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.mySwiper {
+  width: 80%; 
+  margin: 0 auto; 
+  background-color: lightgray;
+  border-radius: 30px;
+  height: 600px;
+}
+.swiper1 {
+  background-color: rgb(156, 156, 156);
+  border-radius: 30px;
+  padding: 10px;
+}
+.image-container {
+  text-align: center; 
+  margin-bottom: 20px; 
+  position: relative; 
+}
+
+.image-container img {
+  max-width: 100%; 
+  border-radius: 20px; 
+  height: 600px;
+}
+
+.image-container button {
+  position: absolute; 
+  bottom: 10px; 
+  right: 10px; 
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
+.image-container button:hover {
+  background-color: rgb(0, 103, 91);
+  color: white;
+}

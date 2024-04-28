@@ -1,0 +1,147 @@
+.profil{
+    background-color: lightgray;
+    border-radius: 30px;
+    margin-bottom: none;
+}
+.profil-k .btn {
+    background-color: white;
+}
+.profil-k .btn:hover {
+    background-color: gray;
+    color: white;
+}
+.profil-k table{
+    border-radius: 30px !important;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+}
+.profil-k button{
+    border-radius: 5px;
+    text-align: center;
+}
+.profil-k .row{
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+}
+.profil{
+    padding: 10px;
+}
+.profil .row-1{
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    padding-left: 5px;
+}
+.podaci{
+    background-color: rgb(173, 173, 173);
+    border-radius: 30px;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.podaci i{
+    color: rgb(91, 91, 91);
+}
+.podaci .btn{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+.podaci .btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.podaci #dugme{
+    text-align: end;
+    height: auto;
+}
+/* Dodajte ove stilove u vaš profil.css fajl */
+
+.change-password {
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.change-password .form-group {
+    margin-bottom: 20px;
+}
+
+.change-password label {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.change-password input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #929292;
+    border-radius: 5px;
+}
+
+.change-password button {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.change-password button:hover {
+    background-color: white;
+    color: black;
+}
+
+.change-password .row-1 {
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.obavestenja{
+    background-color: rgb(173, 173, 173);
+    border-radius: 30px;
+    padding: 10px;
+}
+.obavestenja .obavestenje{
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    padding-left: 5px;
+}
+.obavestenja .row-1 {
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    padding-left: 5px;
+}
+
